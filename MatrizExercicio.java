@@ -29,17 +29,19 @@ public class MatrizExercicio {
             }
         }
 
+        int negativos = 0;
         for (int j = 0; j<matA.length; j++){
         
             for (int i = 0; i<matA.length; i++){
         
                 if (matA[j][i]<0){
-
+                    negativos++;
                     JOptionPane.showMessageDialog(null, matA[j][i]+" é negativo");
 
                 }
             }
         }
+        JOptionPane.showMessageDialog(null, "Há "+negativos+" numeros negativos na matriz.");
 
         int i = 0;
         for (int j = 0; j<matA.length; j++){
