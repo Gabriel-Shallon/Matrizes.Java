@@ -5,10 +5,10 @@ public class MatrizExercicio {
     public static void main(String[] args){
 
 
-        int c = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o números de colunas"));
-        int l = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o números de linhas"));
+        int c = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o tamanho da matriz."));
         
-        int matA[][] = new int[c][l];
+        
+        int matA[][] = new int[c][c];
         
         for (int j = 0; j<matA.length; j++){
              for (int i = 0; i<matA.length; i++){
