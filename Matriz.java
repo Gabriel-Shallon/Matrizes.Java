@@ -5,7 +5,7 @@ public class Matriz {
     public static void main(String[] args){
 
 int c = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o números de colunas"));
-int l = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o números de colunas"));
+int l = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o números de linhas"));
 
 int matA[][] = new int[c][l];
 
