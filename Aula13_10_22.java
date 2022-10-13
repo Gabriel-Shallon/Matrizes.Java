@@ -28,7 +28,7 @@ public class Aula13_10_22 {
            vetA[j] = matA[j][i];
 
              }
-          }
+           }
         }
     
     for (int i = 0; i < matA.length; i++){
