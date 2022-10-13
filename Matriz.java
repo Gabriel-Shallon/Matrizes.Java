@@ -12,7 +12,7 @@ int matA[][] = new int[c][l];
 for (int j = 0; j<matA.length; j++){
      for (int i = 0; i<matA.length; i++){
 
-        matA[j][i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o valor."));
+        matA[j][i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o valor da Matriz A["+j+"]["+i+"]"));
 
     }
 }
