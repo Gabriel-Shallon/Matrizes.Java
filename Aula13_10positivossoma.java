@@ -63,15 +63,16 @@ public class Aula13_10positivossoma {
    for (int i = 0; i < matA.length; i++){
     for (int j = 0; j < matA.length; j++){
 
-        matB[j][i] = matA[j][i];
+        
 
     }
 }
 
 
-   for (int i = 0; i < matA.length; i++){
-    for (int j = 0; j < matA.length; j++){
+   for (int i = 0; i < l; i++){
+    for (int j = 0; j < c; j++){
 
+        matB[j][i] = matA[j][i];
 
         if (matA[j][i]<0){
 
@@ -83,7 +84,7 @@ public class Aula13_10positivossoma {
 }
 
 for (int i = 0; i < matA.length; i++){
-    for (int j = 0; j < matA.length; i++){
+    for (int j = 0; j < matA.length; j++){
 
         JOptionPane.showMessageDialog(null, "Matriz Alterada["+i+"]["+j+"] = "+matB[i][j]+".");
 
