@@ -44,12 +44,12 @@ public class Aula13_10positivossoma {
 
    for (int i = 0; i < matA.length; i++){
 
-        JOptionPane.showMessageDialog(null, "Matriz A["+b+"]["+i+"] = "+matA[b][i]);
+        JOptionPane.showMessageDialog(null, "Matriz A["+i+"]["+b+"] = "+matA[i][b]);
 
    }
 
-   for (int i = 0; i < matA.length; i++){
-    for (int j = 0; j < matA.length; i++){
+   for (int i = 0; i < c; i++){
+    for (int j = 0; j < l; j++){
     if (i==j){
 
         JOptionPane.showMessageDialog(null, matA[i][j]+" faz parte da diagonal principal.");
@@ -60,11 +60,19 @@ public class Aula13_10positivossoma {
 
    }
 
-   int aa = 0;
    for (int i = 0; i < matA.length; i++){
-    for (int j = 0; j < matA.length; i++){
+    for (int j = 0; j < matA.length; j++){
 
         matB[j][i] = matA[j][i];
+
+    }
+}
+
+
+   for (int i = 0; i < matA.length; i++){
+    for (int j = 0; j < matA.length; j++){
+
+
         if (matA[j][i]<0){
 
           matB[j][i] = matA[j][i]*matA[j][i];
@@ -77,7 +85,7 @@ public class Aula13_10positivossoma {
 for (int i = 0; i < matA.length; i++){
     for (int j = 0; j < matA.length; i++){
 
-        JOptionPane.showMessageDialog(null, "Matriz A["+i+"]["+j+"] = "+matA[i][j]+".");
+        JOptionPane.showMessageDialog(null, "Matriz Alterada["+i+"]["+j+"] = "+matB[i][j]+".");
 
     }
 }
