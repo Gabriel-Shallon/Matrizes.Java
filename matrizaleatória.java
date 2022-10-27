@@ -23,19 +23,22 @@ public class matrizaleatória {
         }
 
         int a = 0;
+        int b = 0;
+        int c = 0;
         for (int j = 0; j<matA.length; j++){
             for (int i = 0; i<matA.length; i++){
         
                if (matA[j][i]>a){
 
                 a = matA[j][i];
-
+                b = j;
+                c = i;
                }
         
          }
         }
 
-        JOptionPane.showMessageDialog(null, "Maior número da matriz é "+a);
+        JOptionPane.showMessageDialog(null, "Maior número da matriz é "+a+"\nPosição["+b+"]["+c+"]");
 
     }
 }
