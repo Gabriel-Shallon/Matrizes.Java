@@ -9,7 +9,7 @@ public class matrizaleatória {
     for (int j = 0; j < matA.length; j++){
         for (int i = 0; i < matA.length; i++){
 
-            matA[i][j] = (int)Math.round(Math.random() * 9); 
+            matA[i][j] = (int)Math.round(Math.random() * 100); 
 
             }
         }
