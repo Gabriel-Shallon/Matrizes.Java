@@ -58,7 +58,7 @@ public class matrizaleatoria_maior_menor {
          }
         
 
-        JOptionPane.showMessageDialog(null, "Maior número da matriz é "+d+"\nPosição["+e+"]["+f+"]");
+        JOptionPane.showMessageDialog(null, "Menor número da coluna 7 é "+d+"\nPosição["+e+"]["+f+"]");
 
     }
     }
