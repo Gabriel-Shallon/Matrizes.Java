@@ -23,7 +23,7 @@ public class matrizaleatoria_maior_menor {
          }
         }
 
-        int a = 0;
+        int a = -1;
         int b = 0;
         int c = 0;
    
@@ -46,7 +46,6 @@ public class matrizaleatoria_maior_menor {
         int e = 0;
         int f = 0;
         for (int j = 0; j<matA.length; j++){
-       
         
                if (matA[j][7]<d){
 
